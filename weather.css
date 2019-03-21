@@ -1,0 +1,68 @@
+body {
+	font-family: Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: white;
+	background-color: rgb(51,153,204);
+}
+
+.quarter {
+	width: 25%;
+}
+
+.half {
+	width: 50%;
+}
+
+.weather-blocks {
+	list-style-type: none;
+	font-size: none;
+}
+
+.weather-blocks li {
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+li:last-child {
+	width: 100%;
+}
+
+.lisbon {
+	background-color: rgb(51,153,204);
+}
+
+.paris {
+ background-color: 
+}
+
+.belgrade {
+
+}
+
+.moscow {
+
+}
+
+.telaviv {
+
+}
+
+.cair {
+
+}
+
+.newyork {
+
+}
+
+.newdelhi {
+
+}
+
+.sanfran {
+
+}
+
+.tokyo {
+
+}
