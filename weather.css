@@ -1,7 +1,7 @@
 body {
-	font-family: Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 	color: white;
-	background-color: rgb(51,153,204);
+	background-color: rgb(51,153,204);	
 }
 
 .quarter {
@@ -14,17 +14,26 @@ body {
 
 .weather-blocks {
 	list-style-type: none;
-	font-size: none;
+	font-size: 0;
+	width: 100%;
+	padding-inline-start: 0px;
 }
 
 .weather-blocks li {
 	display: inline-block;
 	box-sizing: border-box;
-	font-size: 18px;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	transition: all .1s ease-in;
+	text-align: center;
+	outline: 2px solid white;
 }
 
 li:last-child {
 	width: 100%;
+	background-color: #666699;
 }
 
 .lisbon {
@@ -32,37 +41,63 @@ li:last-child {
 }
 
 .paris {
- background-color: 
+	background-color: #33cccc;
 }
 
 .belgrade {
-
+	background-color: #996699;
 }
 
 .moscow {
-
+	background-color: #C24747;
 }
 
 .telaviv {
-
+	background-color: #E2674A;
 }
 
 .cair {
-
+	background-color: #99CC99;
 }
 
 .newyork {
-
+	background-color: #99CC99;
 }
 
 .newdelhi {
-
+	background-color: #669999;
 }
 
 .sanfran {
-
+	background-color: #CC6699;
 }
 
 .tokyo {
-
+	background-color: #339966;
 }
+
+.weather-blocks:hover li{
+	opacity: 0.5;
+}
+
+.weather-blocks li:hover{
+	opacity: 1;
+}
+
+span {
+	display: block;
+	color: rgba(255,255,255, 0.7);
+}
+
+.container {
+	margin: 0 auto;
+	width: 720px;
+}
+
+.bordered {
+	height: calc(100vh - 20px);
+	border: 10px solid #2b80ab;
+	margin: 0;
+	padding: 0;
+}
+
